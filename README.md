@@ -1,5 +1,6 @@
 # micromagnetics
 Repository for Micromagnetics code utilizing magnum.fd 
+
 Requires installation of magnum.fd python package. See links at the end of the readme for installation instructions.
 
 runSolver.py:
