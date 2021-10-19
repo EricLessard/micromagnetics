@@ -61,15 +61,15 @@ def run(n):
 	#there's a couple built in mimizations
 	#magneto.llge -> Landau Lifshitz Gilbert Eq.
 	#minimize() -> M2 = M - h * f * (M + M2)/2 ^ H(M)
-	f1, rho = Field(mesh), Field(mesh)
-	f1.fill(1) 
-	rho.fill(1) #rho_initial = 1
-	dJ = VectorField(mesh);
-	M = solver.state.M;
-	H = solver.state.H_stray;
-	dJ = p*(rho**(p-1))
-	check = magneto.llge(f1, rho, M, H, dJ)
-	print(check)
+	#f1, rho = Field(mesh), Field(mesh)
+	#f1.fill(1) 
+	#rho.fill(1) #rho_initial = 1
+	#dJ = VectorField(mesh);
+	#M = solver.state.M;
+	#H = solver.state.H_stray;
+	#dJ = p*(rho**(p-1))
+	#check = magneto.llge(f1, rho, M, H, dJ)
+	#print(check)
 
 
 	#Get our box indices
